@@ -1,3 +1,21 @@
+body {
+    margin: 0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+      "sans-serif";
+    height: 100%;
+    background-color: #2c2f33;
+    overflow-x: hidden;
+  }
+  
+form {
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
 .topnav {
     overflow: hidden;
     background-color: #23272a;
@@ -40,6 +58,29 @@
     background-color: black;
 }
 
-.footer {
-    background-color: black;
-}
+footer {
+    display: inline-block; 
+    background-color: #23272a;
+    padding-top: 10px; 
+    padding-left: 40px;  
+    padding-bottom: 30px; 
+    text-align: left; /*center*/
+    color: white;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  footer a:hover {
+    color: #ffffff;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #7289da;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #7289da;
+  }
