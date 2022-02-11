@@ -18,7 +18,7 @@ form {
 
 .topnav {
     overflow: hidden;
-    background-color: #23272a;
+    background-color: #ffbb11;
     padding: 10px;
     width: 100%;
     display: flex;
@@ -52,11 +52,16 @@ form {
 
 .description {
     background-color: white;
+    text-align: center;
+    color: black;
 }
 
 .description2 {
-    background-color: black;
+    background-color: white;
+    text-align: center;
+    color: black;
 }
+
 
 footer {
     display: inline-block; 
