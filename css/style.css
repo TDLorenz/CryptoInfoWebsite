@@ -28,7 +28,15 @@
 }
 
 
+.title {
+    background-color: black;
+}
+
 .description {
+    background-color: black;
+}
+
+.description2 {
     background-color: black;
 }
 
