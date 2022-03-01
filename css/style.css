@@ -70,7 +70,7 @@ footer {
     text-align: left; /*center*/
     color: white;
     bottom: 0;
-    position: relative;
+    position: absolute;
     width: 100%;
   }
   
