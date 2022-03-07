@@ -3,7 +3,7 @@ body {
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
       "sans-serif";
     height: 100%;
-    background-color: #2c2f33;
+    background-color: #2e3034;/*#2c2f33;*/
     overflow-x: hidden;
   }
   
@@ -75,7 +75,7 @@ form {
 
 footer {
     display: inline-block; 
-    background-color: #23272a;
+    background-color: #232323;
     padding-top: 10px; 
     padding-left: 40px;  
     padding-bottom: 30px; 
@@ -95,8 +95,3 @@ footer {
     color: #7289da;
   }
   
-  footer a {
-    text-decoration: none;
-    color: #7289da;
-  }
-
