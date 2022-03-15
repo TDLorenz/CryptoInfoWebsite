@@ -47,6 +47,16 @@ form {
 }
 */
 
+.topnav a.logo {
+  pointer-events: none;
+}
+
+.topnav a.logo img {
+  width: 90px;
+  height: 75px;
+  padding-left: 10px;
+}
+
 .title {
     background-color: white;
     text-align: center;
@@ -58,6 +68,7 @@ form {
 .header {
   color: white;
   text-align: center;
+ /* background-color: #232323; */ 
 
 }
 
