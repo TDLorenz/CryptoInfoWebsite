@@ -52,13 +52,14 @@ form {
 }
 
 .topnav a.logo img {
-  width: 90px;
-  height: 75px;
-  padding-left: 10px;
+  width:  70x;/*90px;*/
+  height: 40px;/*75px;*/
+  /*padding-left: 10px;*/
 }
 
 .title {
-    background-color: white;
+    background-color: #7289da;
+    color: white;
     text-align: center;
     font: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -72,12 +73,30 @@ form {
 
 }
 
+.image {
+  height: 500px;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  
+}
+
 .description {
-    background-color: white;
     text-align: center;
-    color: black;
+    color: white;
     margin: 10px 100px 30px 100px;
 }
+
+.description a {
+  text-decoration: none;
+  color: #7289da;
+  
+}
+
+.description a:hover {
+  color: #ffffff;
+}
+
 
 footer {
     display: inline-block; 
