@@ -3,7 +3,7 @@ body {
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
       "sans-serif";
     height: 100%;
-    background-color: #2e3034;/*#2c2f33;*/
+    background-color: #2e3034;
     overflow-x: hidden;
   }
   
@@ -22,14 +22,13 @@ form {
     padding: 10px;
     width: 100%;
     display: flex;
-  
     align-items: center;
 }
   
 .topnav a {
     float: left;
     color: #f2f2f2;
-    background-color: #2e3034;/*#7289da;*/
+    background-color: #2e3034;
     text-align: center;
     padding: 10px 10px 10px 10px;
     text-decoration: none;
@@ -51,18 +50,18 @@ form {
 }
 
 .topnav a.logo img {
-  width: 70px;/*90px;*/
-  height: 50px;/*75px;*/
+  width: 70px;
+  height: 50px;
   padding: 0px 0px -15px 0px;
   background-color: #ffbb11;
 }
 
 .title {
-    background-color: #7289da;
+    background-color:#7289da; 
     color: white;
     text-align: center;
     font: 100px;
-    font-family: 'Arial Narrow';/*'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Arial Narrow';
     padding: 10px;
 }
 
@@ -71,31 +70,14 @@ form {
   text-align: center;
 }
 
-.image {
-
-  max-width: 100%;
-  flex-flow: row nowrap;
+.images-container {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height: auto;
-  width: auto\9; /* ie8 */
-  display: flex;
-  
-  /*
-  width: auto;
-  height: 350px;
-  display: flex;
-  */
-  /*
-  width: 200px; 
-  */
-  /*max-width: 25%;*/
-  
-  /*margin: 0 30px 0 30px;*/
-  /*
-  text-align: center;
-  align-items: middle;
-  */
-  
+}
+
+.text-spacing{
+  margin: 0 0 40px;
 }
 
 .description {
@@ -113,7 +95,6 @@ form {
 .description a:hover {
   color: #ffffff;
 }
-
 
 footer {
     display: inline-block; 
